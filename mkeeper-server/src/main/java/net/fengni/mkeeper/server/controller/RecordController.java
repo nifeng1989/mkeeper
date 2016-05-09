@@ -11,9 +11,10 @@ import java.io.IOException;
  * Created by Administrator on 2015/9/3.
  */
 @Controller
-public class HelloWorldController {
-    @RequestMapping(value = "/helloWorld.go")
-    public void helloWorld(HttpServletRequest request,HttpServletResponse response){
+@RequestMapping(value = "record")
+public class RecordController {
+    @RequestMapping(value = "/record.go")
+    public void save(HttpServletRequest request,HttpServletResponse response){
         try {
             response.getWriter().write("hello world");
         } catch (IOException e) {

@@ -120,7 +120,7 @@ public abstract class AbstractServer {
             }
             _ctx.setTempDirectory(tempDir);
         }
-        _ctx.setContextPath("/api");
+        //_ctx.setContextPath("/api");
         _ctx.setInitParameter("org.eclipse.jetty.servlet.Default.dirAllowed", "false");
 //        WebAppContext _ctx2 = new WebAppContext();
 //        _ctx2.setContextPath("//api");

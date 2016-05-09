@@ -38,16 +38,6 @@ public class MainServer extends AbstractServer {
     public void init(Config config) {
         config.setMin_thread(128);
         config.setMax_thread(512);
-
-       /* //初始化消息中心
-        Notify.init(config.port);
-
-        NotifyClientConsumer.init(config.port);
-        //NsqLeaderSelector.start();
-        if(NsqNotifyConfig.isServerNameExist()){
-            NotifyServer notifyServer=new NotifyServer();
-            notifyServer.init();
-        }*/
     }
 
 }

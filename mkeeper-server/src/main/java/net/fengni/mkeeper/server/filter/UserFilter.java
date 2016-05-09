@@ -1,6 +1,10 @@
 package net.fengni.mkeeper.server.filter;
 
+import net.fengni.mkeeper.server.model.User;
+
 import javax.servlet.*;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
@@ -14,6 +18,8 @@ public class UserFilter implements Filter {
 
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
+        HttpServletRequest httpRequest = (HttpServletRequest) servletRequest;
+        User user = (User)httpRequest.getSession().getAttribute("user");
         filterChain.doFilter(servletRequest, servletResponse);
     }
 
