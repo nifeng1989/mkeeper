@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="<%=basepath%>/css/bootstrap-responsive.css"/>
     <link rel='stylesheet' type="text/css" href="<%=basepath%>/css/main.css"/>
     <link rel='stylesheet' type="text/css" href="<%=basepath%>/css/edj-widget-citybox.css"/>
-    <link rel="stylesheet" type="text/css" href="<%=basepath%>/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="<%=basepath%>/css/jquery-ui.css">
 </head>
 <script type="text/javascript" charset="utf-8" src="<%=basepath%>/js/bootstrap-transition.js"></script>
 <script type="text/javascript" charset="utf-8" src="<%=basepath%>/js/bootstrap-alert.js"></script>

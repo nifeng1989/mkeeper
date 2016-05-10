@@ -49,12 +49,12 @@
         <property name="testWhileIdle" value="true" />
 	</bean>
 
-	<mvc:interceptors>
+<!--	<mvc:interceptors>
 		<mvc:interceptor>
 			<mvc:mapping path="/**"/>
 			<bean id="loginInterceptor" class="net.fengni.mkeeper.server.interceptor.LoginInterceptor"/>
 		</mvc:interceptor>
-	</mvc:interceptors>
+	</mvc:interceptors>-->
 
 	<!--<import resource="jsp-servlet.xml"/>-->
 </beans>
