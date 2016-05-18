@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu May 12 17:25:54 CST 2016
+maven-filtering-1.0.jar>nexus-releases=
+maven-filtering-1.0.pom>nexus-releases=

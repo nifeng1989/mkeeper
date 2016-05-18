@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu May 12 17:25:19 CST 2016
+logback-core-1.1.2.jar>nexus-releases=
+logback-core-1.1.2.pom>nexus-releases=

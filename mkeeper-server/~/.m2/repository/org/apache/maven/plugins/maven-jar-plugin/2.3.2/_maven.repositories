@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu May 12 17:22:22 CST 2016
+maven-jar-plugin-2.3.2.jar>nexus-releases=
+maven-jar-plugin-2.3.2.pom>nexus-releases=
